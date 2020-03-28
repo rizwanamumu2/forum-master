@@ -20,7 +20,6 @@ Route::get('/questions', 'QuestionController@index');
 Route::get('/question/create', 'QuestionController@create');
 Route::post('/question/store', 'QuestionController@store');
 Route::get('/question/{question}', 'QuestionController@show');
-<<<<<<< HEAD
 Route::get('/question/{question}', 'QuestionController@show')->name('question.show');
 
 Route::get('/review/create', 'ReviewController@create');
@@ -36,13 +35,13 @@ Route::post('/profile/{user}/image', 'ProfileImageController@update_avatar');
 Route::get('/profile/question/edit/{id}', 'QuestionController@edit')->name('question.edit');
 Route::post('/profile/question/updated/{id}', 'QuestionController@updateQuestion')->name('question.update');
 Route::get('/profile/question/deleted/{id}', 'QuestionController@deleteQuestion')->name('question.delete');
-=======
+
 Route::get('/question/{question}', 'QuestionController@show');
 Route::get('/location', 'LocationController@show');
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
 Route::get('/edit/{user}/create', 'EditController@create');
 Route::post('/edit/store', 'EditController@store');
->>>>>>> 7ce04a357879d12207460ad9acf6a6cdb425ebbb
+
 //Route::get('/profile/{user}/updated', 'ProfileController@index');
 
 

@@ -70,7 +70,7 @@ class User extends \TCG\Voyager\Models\User implements Searchable
     {
         return $this->hasOne(Edit::class);
     }
-<<<<<<< HEAD
+
     public function image()
     {
         return $this->hasOne(Image::class);
@@ -95,7 +95,5 @@ class User extends \TCG\Voyager\Models\User implements Searchable
        );
     }
      
-=======
-    
->>>>>>> 7ce04a357879d12207460ad9acf6a6cdb425ebbb
+
 }

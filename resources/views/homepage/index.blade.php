@@ -4,17 +4,17 @@
 
 <div class="front px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 
-<<<<<<< HEAD
+
   <h1 class="display">Explore Features</h1>
   <p class="leads">Our web application helps you to save time and be more productive in AI implementation.</p>
   <a class="btn btn-transparent" href="http://localhost:8000/register"> Join Now </a>
   <a class="btn btn-light" href="http://localhost:8000/questions"> Browse </a>
-=======
+
     <h1 class="display">Explore Features</h1>
     <p class="leads">Our web application helps you to save time and be more productive in AI implementation.</p>
     <a class="btn btn-transparent" href="http://localhost:8000/register"> Join Now </a>
     <a class="btn btn-light" href="http://localhost:8000/questions"> Browse </a>
->>>>>>> 7ce04a357879d12207460ad9acf6a6cdb425ebbb
+
  
 </div>
 
@@ -26,7 +26,7 @@
                 <!-- title-section -->
       <div class="main-heading text-center">
                 
-<<<<<<< HEAD
+
         <h2>How  It Works </h2>
         <div class="slices"><span class="slice"></span><span class="slice"></span><span class="slice"></span>
         </div>
@@ -52,7 +52,7 @@
         <div class="clearfix"></div>
       </div>
     </div>
-=======
+
                     <h2>How  It Works </h2>
                     <div class="slices"><span class="slice"></span><span class="slice"></span><span class="slice"></span>
                     </div>
@@ -75,7 +75,7 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
->>>>>>> 7ce04a357879d12207460ad9acf6a6cdb425ebbb
+
             <!-- end container -->
   </section>
 </div>
